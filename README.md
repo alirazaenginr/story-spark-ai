@@ -1,10 +1,12 @@
-# story-spark-ai
+# Story Spark Ai
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
 First, run the development server:
+
+You need node `18.20.4` and `next 14` for this project
 
 Run `npm i` to install the node_modules
 
