@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 type storyCardProps = {
-  paragraph: string,
-  imageUrl: string,
+  paragraph: string;
+  imageUrl: string;
 }
 
 const StoryCard = (props: storyCardProps) => {

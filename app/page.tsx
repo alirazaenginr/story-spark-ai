@@ -2,9 +2,9 @@
 import axios from "axios";
 import Image from "next/image";
 import { toast } from "react-toastify";
-import Loader from "./components/loader/page";
+import Loader from "./components/loader/Loader";
 import { SyntheticEvent, useState } from "react";
-import StoryCard from "./components/storyCard/page";
+import StoryCard from "./components/storyCard/StoryCard";
 import textFieldSvg from "../app/assets/text-field.svg";
 
 const Home = () => {
