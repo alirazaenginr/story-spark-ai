@@ -54,6 +54,7 @@ export const POST = async (request: NextRequest) => {
       storyData: story?.replaceAll("{end}", ""),
       images: imagesArr, 
     }, { status: 200 });
+  //eslint-disable-next-line
   } catch(e: any) {
     return NextResponse.json({
       message: e?.message,

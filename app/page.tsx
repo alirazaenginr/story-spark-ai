@@ -43,6 +43,7 @@ const Home = () => {
 					error: null,
 				}));
 			}
+		//eslint-disable-next-line
 		} catch (e: any) {
 			setData((prevState) => ({
 				...prevState,
